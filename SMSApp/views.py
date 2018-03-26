@@ -34,7 +34,7 @@ def index(request):
                 smsObject.logout()
 
 def verifyPhoneno(no):
-    if(len(no) == 10):
+    if(len(str(no)) == 10):
         return True
     return False
 
