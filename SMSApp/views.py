@@ -16,7 +16,7 @@ def index(request):
             user = data['username']
             passw = data['password']
             print(data)
-            if(verifyPhoneno(phono) and verifyMessage(mess) and verifyCredential(user,passw) and verifyPhoneno(user)):
+            if(verifyMessage(mess) and verifyCredential(user,passw) and verifyPhoneno(user)):
                 smsObject = sms.sms(user,passw)
                 if(smsObject.loggedIn):
                     if(smsObject.send(phono,mess)):

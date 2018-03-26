@@ -25,7 +25,7 @@ SECRET_KEY = 'jn(jdh($6#@8_og77y&cl0y&0)+(4dkt-evo9dk0&#0r#o*dv1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['satyamsingh.pythonanywhere.com']
 
 
 # Application definition
